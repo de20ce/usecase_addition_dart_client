@@ -65,8 +65,8 @@ class _CustomNumPadPageState extends State<CustomNumPadPage> {
     _streamList = <String>[];
 
     _channel = ClientChannel(
-      '7.tcp.eu.ngrok.io',
-      port: 12179,
+      '4.tcp.eu.ngrok.io',
+      port: 11897,
       options: const ChannelOptions(
         credentials: ChannelCredentials.insecure(),
       ),
